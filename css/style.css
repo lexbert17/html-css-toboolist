@@ -12,6 +12,7 @@ body{
 header{
     
     background-color: hsl(0deg 0% 100%);
+    margin-bottom: 50px;
 }
 
 .logo{
@@ -25,7 +26,35 @@ h1{
     display: inline;
     vertical-align: middle ;
     height: 100%;
-    font-weight: bold;
-    
-    
+  
 }
+
+/* main */
+
+.container{
+    width: 70%;
+    margin: auto;
+    background-color: hsl(0deg 0% 100%) 
+     
+   
+}
+
+/* tasti di invio */
+.button .blue{
+    background-color: hsl(204.14deg 85.79% 61.37%);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 10%;
+}
+
+.button .white{
+    background-color: hsl(0deg 0% 100%);
+    color: hsl(206.67deg 8.91% 80.2%);
+    padding: 3px 10px;
+    border-radius: 10%;
+}
+
+.button{
+    margin-bottom: 20px;
+}
+/* /tasti di invio */
