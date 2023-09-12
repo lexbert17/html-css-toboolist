@@ -4,3 +4,28 @@
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
 }
+/* sfondo */
+body{
+    background-color: hsl(200deg 20% 97.06%);
+}
+
+header{
+    
+    background-color: hsl(0deg 0% 100%);
+}
+
+.logo{
+    vertical-align: middle ;
+    height: 100%;
+    padding: 10px;
+
+}
+/* titolo */
+h1{
+    display: inline;
+    vertical-align: middle ;
+    height: 100%;
+    font-weight: bold;
+    
+    
+}
