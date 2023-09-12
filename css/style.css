@@ -14,7 +14,7 @@ header{
     background-color: hsl(0deg 0% 100%);
     margin-bottom: 50px;
 }
-
+/* figura */
 .logo{
     vertical-align: middle ;
     height: 100%;
@@ -25,18 +25,19 @@ header{
 h1{
     display: inline;
     vertical-align: middle ;
-    height: 100%;
-  
+    height: 100%; 
 }
 
 /* main */
-
 .container{
+    
     width: 70%;
+    height: 700px;
+    padding-left: 50px;
+    padding-top: 30px;
     margin: auto;
     background-color: hsl(0deg 0% 100%) 
-     
-   
+      
 }
 
 /* tasti di invio */
@@ -45,6 +46,7 @@ h1{
     color: white;
     padding: 3px 10px;
     border-radius: 10%;
+    border: 1px solid  hsl(204.14deg 85.79% 61.37%);
 }
 
 .button .white{
@@ -52,9 +54,72 @@ h1{
     color: hsl(206.67deg 8.91% 80.2%);
     padding: 3px 10px;
     border-radius: 10%;
+    border: 1px solid hsl(206.67deg 8.91% 80.2%);
 }
 
 .button{
+    margin-bottom: 10px;
+}
+/* titolo secondario */
+h2{
+    margin-bottom: 15px;
+}
+
+/* lista */
+ul{
+    list-style-type: none;
+    margin-bottom: 4    0px;
+}
+/* proprietà simboli */
+.symbol{
+    font-size: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    height: 15px;
+    width: 15px;
+}
+/* spunta */
+.check{
+    border: 1px solid hsl(165.52deg 43.28% 60.59%);
+    color: hsl(165.52deg 43.28% 60.59%); 
+}
+/* croce */
+.cross{
+    border: 1px solid hsl(2.75deg 79.27% 62.16%);
+    color: hsl(2.75deg 79.27% 62.16%);    
+}
+/* riga lista */
+li{
+    vertical-align: middle;
     margin-bottom: 20px;
 }
-/* /tasti di invio */
+/* proprietà parole evidenziate */
+.highlight{
+    font-size: 10px;
+    background-color: hsl(203.13deg 80.58% 59.61%);
+    color: hsl(205deg 85.71% 97.25%);
+    padding: 8px 15px;
+    border-radius: 25%;
+}
+
+.purple{
+    background-color: hsl(262.11deg 67.86% 67.06%);
+}
+
+.green{
+    background-color: hsl(165deg 42.2% 57.25%);
+}
+
+.orange{
+    background-color: hsl(33.61deg 88.02% 57.45%);
+}
+
+.pink{
+    background-color: hsl(327.93deg 59.18% 61.57%);
+}
+
+.lightgreen{
+    background-color: hsl(69.15deg 68.91% 46.67%);
+}
